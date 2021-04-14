@@ -1,0 +1,93 @@
+\relax 
+\citation{MNISTcreators}
+\citation{wiki:MNIST}
+\@writefile{toc}{\contentsline {section}{\numberline {I}INTRODUCTION}{1}}
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces 25 Random Samples of the original train dataset}}{1}}
+\newlabel{fig:original}{{1}{1}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces 8-bit Grayscale Shades of Gray}}{1}}
+\newlabel{fig:maxeig2}{{2}{1}}
+\@writefile{toc}{\contentsline {section}{\numberline {II}PREPROCESSING}{1}}
+\newlabel{sec:preprocess}{{II}{1}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {II-A}Thresholding}{1}}
+\citation{bovik2009essential}
+\citation{bovik2009essential}
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces Output of thresholding on images with $T=255$ from Figure 1\hbox {}}}{2}}
+\newlabel{fig:thresholded}{{3}{2}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {II-B}Median Filter}{2}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {II-C}Biggest Digit}{2}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces Output of median filter on thresholded images from Figure 3\hbox {}}}{2}}
+\newlabel{fig:thresholdmed}{{4}{2}}
+\newlabel{algstep}{{3}{2}}
+\citation{bishop:2006:PRML}
+\citation{bishop:2006:PRML}
+\citation{goodfellow2016deep}
+\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces Output of biggest digit filter on thresholded images from Figure 3\hbox {}}}{3}}
+\newlabel{fig:biggest}{{5}{3}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {II-D}Applied Filters}{3}}
+\@writefile{toc}{\contentsline {section}{\numberline {III}METHODOLOGY}{3}}
+\newlabel{sec:method}{{III}{3}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces Output of Different Filters Applied on the first image in Figure 1\hbox {}}}{3}}
+\newlabel{fig:allFilters}{{6}{3}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {III-A}Linear SVM}{3}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {III-B}Feedforward Neural Network}{3}}
+\citation{wiki:cnn}
+\citation{karpathycnn}
+\citation{Budhiraja2016}
+\citation{dhingra2017model}
+\citation{dhingra2017model}
+\citation{lattner2016}
+\@writefile{lof}{\contentsline {figure}{\numberline {7}{\ignorespaces Illustration of the slack variables $\xi _n\ge 0$ \cite  [p.\nobreakspace  {}332]{bishop:2006:PRML}}}{4}}
+\newlabel{fig:svmSlack}{{7}{4}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {III-C}Convolutional Neural Networks}{4}}
+\@writefile{toc}{\contentsline {section}{\numberline {IV}HYPERPARAMETER SELECTION}{4}}
+\newlabel{sec:hyperParams}{{IV}{4}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {IV-A}Linear SVM}{4}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {IV-B}Feedforward Neural Network}{4}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {IV-C}Convolutional Neural Network}{4}}
+\citation{srivastava2014dropout}
+\citation{walia2017opt}
+\@writefile{lof}{\contentsline {figure}{\numberline {8}{\ignorespaces Architecture of CNN model 6}}{5}}
+\newlabel{fig:CNNarch}{{8}{5}}
+\@writefile{lot}{\contentsline {table}{\numberline {I}{\ignorespaces hyper-parameters for CNN model 6}}{5}}
+\newlabel{tab:hyperparams}{{I}{5}}
+\@writefile{lof}{\contentsline {figure}{\numberline {9}{\ignorespaces Training and validation performance for different value of C}}{5}}
+\newlabel{fig:svmtuning}{{9}{5}}
+\@writefile{toc}{\contentsline {section}{\numberline {V}RESULTS}{5}}
+\newlabel{sec:result}{{V}{5}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {V-A}Linear SVM}{5}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {V-B}Feedforward Neural Network}{5}}
+\citation{dhingra2017model}
+\@writefile{lof}{\contentsline {figure}{\numberline {10}{\ignorespaces Accuracy of CNN vs Model Complexity \cite  [p.\nobreakspace  {}4]{dhingra2017model}}}{6}}
+\newlabel{fig:cnnComplexity}{{10}{6}}
+\@writefile{lof}{\contentsline {figure}{\numberline {11}{\ignorespaces Effect of Number of Layers on Convolutional Neural Network Accuracy}}{6}}
+\newlabel{fig:cnnAccuvsLayers}{{11}{6}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {V-C}Convolutional Neural Network}{6}}
+\@writefile{lof}{\contentsline {figure}{\numberline {12}{\ignorespaces Confusion matrix for the best SVM model (targets vs outputs) with 2500 validation examples}}{6}}
+\newlabel{fig:svmconf}{{12}{6}}
+\@writefile{lof}{\contentsline {figure}{\numberline {13}{\ignorespaces Validation accuracy for different layer size}}{6}}
+\newlabel{fig:fnntune}{{13}{6}}
+\@writefile{toc}{\contentsline {section}{\numberline {VI}DISCUSSION}{6}}
+\newlabel{sec:discuss}{{VI}{6}}
+\@writefile{lot}{\contentsline {table}{\numberline {II}{\ignorespaces Specification of the trained CNN models and their accuracy on Validation Set}}{7}}
+\newlabel{tab:CNNmodels}{{II}{7}}
+\@writefile{lof}{\contentsline {figure}{\numberline {14}{\ignorespaces Confusion matrix for the best FFNN model (targets vs outputs)}}{7}}
+\newlabel{fig:fnnconf}{{14}{7}}
+\@writefile{lot}{\contentsline {table}{\numberline {III}{\ignorespaces Performance of Different Classifiers for Modified MNIST}}{7}}
+\newlabel{tab:perfAll}{{III}{7}}
+\@writefile{lof}{\contentsline {figure}{\numberline {15}{\ignorespaces Confusion matrix for the best CNN model}}{7}}
+\newlabel{fig:cnnconf}{{15}{7}}
+\bibstyle{IEEEtran}
+\bibdata{IEEEabrv,references}
+\bibcite{MNISTcreators}{1}
+\bibcite{wiki:MNIST}{2}
+\bibcite{bovik2009essential}{3}
+\bibcite{bishop:2006:PRML}{4}
+\bibcite{goodfellow2016deep}{5}
+\bibcite{wiki:cnn}{6}
+\bibcite{karpathycnn}{7}
+\bibcite{Budhiraja2016}{8}
+\bibcite{dhingra2017model}{9}
+\bibcite{lattner2016}{10}
+\bibcite{srivastava2014dropout}{11}
+\bibcite{walia2017opt}{12}
+\@writefile{toc}{\contentsline {section}{References}{8}}
